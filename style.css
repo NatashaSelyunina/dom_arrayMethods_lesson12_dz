@@ -1,0 +1,65 @@
+div {
+    margin-left: 50px;
+}
+
+.h1 {
+    text-align: left;
+    font-style: oblique;
+    color: rgb(68, 40, 195);
+}
+
+.form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px rgb(77, 8, 8) solid;
+    box-sizing: border-box;
+}
+
+.labelForInputDate {
+    margin-top: 10px;
+}
+
+.divButton {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.save {
+   width: 100px;
+   background-color: rgb(111, 225, 93);
+}
+
+.divExecuted {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.p {
+    font-size: larger;
+    color: rgb(68, 40, 195);
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-left: 20px;
+    font-size: larger;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.task {
+    margin: 10px 0px 0px 5px;
+    padding: 0px 0px 0px 5px;
+}
+
+.executedTask {
+    text-decoration: line-through;
+    color: red;
+}
