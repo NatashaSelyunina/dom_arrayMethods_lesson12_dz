@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO LIST ✔✔✔</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="h1" id="h1">Список важных дел, которые нужно сделать 😉</h1>
+        <form class="form" id="form">
+            <label for="inputTask">Наименование задачи</label>
+            <input type="text" id="inputTask" placeholder="Позвонить родителям" name="task">
+            <label for="inputDate" class="labelForInputDate">Введите дату исполнения:</label>
+            <input type="date" class="inputDate" id="inputDate" name="date" pattern="\d{4}-\d{2}-\d{2}" required>
+            <div class="divButton" id="divButton">
+                <button class="save" class="button" id="save">Сохранить</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="divExecuted" id="divExecuted">
+        <p class="p" id="p">Вы можете кликнуть на задачу в списке, которую нужно отметить, как исполненную. <br>Если отметили ошибочно, кликните еще раз:</p>
+    </div> 
+
+    <div class="toDoList" id="toDoList">
+        
+    </div>
+
+</body>
